@@ -10,30 +10,56 @@ h1{
 
 .title {
    text-align:center;
-
 }
 
 .review {
-   vertical-align: right;
-   background-color:red;
-   display:block;
    width:400px;
+   margin-left: 20px;
+}
+
+.p2 {
+   width: 400px;
+   margin-top: 40px;
+}
+
+.p3 {
+   width: 400px;
+   margin-top: 400px;
 }
 
 .quote{
 padding-right:40px;
 padding-left:40px;
+font-style: italic;
+color: grey;
 }
 
 ol {
-   margin-top: 200px;
-   margin-bottom: 200px;
-   margin-left: 750px;
+   margin-top: 150px;
+   margin-bottom: 550px;
    text-align: left;
    list-style-type: upper-alpha;
-
+   float:right;
 }
 
 li {
    line-height: 30px;
+}
+
+img{
+   margin-top: 150px;
+   margin-bottom: 100px;
+   float:left;
+}
+.list1 {
+   margin-right: 300px;
+   margin-top: -10px;
+}
+
+h3 {
+   font-weight: bold;
+}
+
+h2 {
+   font-weight: bold;
 }
