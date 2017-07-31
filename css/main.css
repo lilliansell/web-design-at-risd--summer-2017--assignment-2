@@ -1,0 +1,39 @@
+
+body{
+   margin: 20px;
+   text-align:center;
+}
+
+h1{
+   margin-bottom: 30px;
+}
+
+.title {
+   text-align:center;
+
+}
+
+.review {
+   vertical-align: right;
+   background-color:red;
+   display:block;
+   width:400px;
+}
+
+.quote{
+padding-right:40px;
+padding-left:40px;
+}
+
+ol {
+   margin-top: 200px;
+   margin-bottom: 200px;
+   margin-left: 750px;
+   text-align: left;
+   list-style-type: upper-alpha;
+
+}
+
+li {
+   line-height: 30px;
+}
