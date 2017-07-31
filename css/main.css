@@ -1,30 +1,37 @@
 
 body{
-   margin: 20px;
+   margin: 30px;
    text-align:center;
+   line-height: 2em;
 }
 
 h1{
-   margin-bottom: 30px;
+   margin-bottom: 60px;
+   font-size: 600%;
 }
 
 .title {
    text-align:center;
+   z-index: 1;
 }
 
 .review {
-   width:400px;
+   width:500px;
    margin-left: 20px;
+   margin-top: 40px;
+   z-index: 1;
 }
 
 .p2 {
-   width: 400px;
+   width: 500px;
    margin-top: 40px;
+   z-index: 1;
 }
 
 .p3 {
-   width: 400px;
-   margin-top: 400px;
+   width: 500px;
+   margin-top: 500px;
+   z-index: 1;
 }
 
 .quote{
@@ -32,14 +39,21 @@ padding-right:40px;
 padding-left:40px;
 font-style: italic;
 color: grey;
+font-size: 200%;
 }
 
 ol {
    margin-top: 150px;
-   margin-bottom: 550px;
+   margin-bottom: 200px;
+   margin-left: -100px;
+   margin-right: -30px;
+
    text-align: left;
    list-style-type: upper-alpha;
    float:right;
+   background-color: aliceblue;
+   padding-left: 50em;
+
 }
 
 li {
@@ -51,15 +65,31 @@ img{
    margin-bottom: 100px;
    float:left;
 }
+
 .list1 {
-   margin-right: 300px;
+   padding-right:2em;
    margin-top: -10px;
+   margin-right: -2em;
+   margin-left:-30px;
 }
 
 h3 {
    font-weight: bold;
+   font-size: 200%;
 }
 
 h2 {
    font-weight: bold;
+   font-size: 200%;
+}
+
+.potato {
+   height: 330em;
+   width:300px;
+   left-margin: 30px;
+
+   bottom-margin:0;
+   background-color: aliceblue;
+   position: absolute;
+   z-index: -1;
 }
